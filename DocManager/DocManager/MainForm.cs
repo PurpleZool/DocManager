@@ -349,13 +349,11 @@ namespace DocManager
 
         private List<string> ProccessTags(string tagStr) 
         {
-            List<string> tags = new List<string>();
             if (lblTags.Text == string.Empty)
             {
-                return tags;
+                return new List<string>();
             }
-            tags=tagStr.Split(',').Select(t => t.Trim().ToUpper()).ToList();
-            return tags;
+            return tagStr.Split(',').Select(t => t.Trim().ToUpper()).ToList();
         }
 
         #endregion

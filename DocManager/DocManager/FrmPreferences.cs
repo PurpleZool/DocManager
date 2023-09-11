@@ -31,11 +31,9 @@ namespace DocManager
         }
         private void SaveApplyConfig(bool apply) 
         {
-            string trueConfig = "1";
-            string falseConfig = "0";
 
-            usedConfig.AppSettings.Settings["checkOnLoad"].Value = chkBxCheckOnLoad.Checked ? trueConfig : falseConfig;
-            usedConfig.AppSettings.Settings["autoLoad"].Value = chkBxAutoLoad.Checked ? trueConfig : falseConfig;
+            usedConfig.AppSettings.Settings["checkOnLoad"].Value = chkBxCheckOnLoad.Checked ? "1" : "0";
+            usedConfig.AppSettings.Settings["autoLoad"].Value = chkBxAutoLoad.Checked ? "1" : "0";
             usedConfig.AppSettings.Settings["defaultPath"].Value = txtBxDefaultPath.Text;
 
             SaveApply?.Invoke(usedConfig,apply);

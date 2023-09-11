@@ -17,7 +17,7 @@ namespace DocManager.Components
         string hash;
         string extension;
 
-        Thread searchThread;
+        //Thread searchThread;
 
         public delegate void ItemFound(string item);
         public event ItemFound AddFound;
@@ -26,7 +26,7 @@ namespace DocManager.Components
         public event FinderErrorMessage ErrorMessage;
 
 
-        public bool Running { get { return searchThread.ThreadState == ThreadState.Running; } }
+        //public bool Running { get { return searchThread.ThreadState == ThreadState.Running; } }
 
         public FileFinder(string startPath,string hash, bool recursive) 
         {
@@ -81,9 +81,5 @@ namespace DocManager.Components
             fs.Close();
             return BitConverter.ToString(hashBytes).Replace("-", "");
         }
-
-
-
-
     }
 }
