@@ -68,7 +68,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Documents\Documents.cs" />
+    <Compile Include="Components\Documents.cs" />
     <Compile Include="Enums\Responses.cs" />
     <Compile Include="Components\FileFinder.cs" />
     <Compile Include="FrmAdvancedSearch.cs">

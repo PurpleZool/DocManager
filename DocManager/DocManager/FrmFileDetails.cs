@@ -1,13 +1,6 @@
-﻿using DocManager.Documents;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+﻿using System;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DocManager.Components;
 using System.Windows.Forms;
 
 namespace DocManager
@@ -16,7 +9,6 @@ namespace DocManager
     {
 
         private Document document;
-        private FileInfo documentInfo;
 
         public FrmFileDetails()
         {
