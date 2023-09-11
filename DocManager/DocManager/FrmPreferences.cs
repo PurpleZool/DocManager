@@ -17,7 +17,6 @@ namespace DocManager
         private string DefaultPath { get { return usedConfig.AppSettings.Settings["defaultPath"].Value; } }
 
         
-        
         public FrmPreferences(Configuration usedConfig)
         {
             InitializeComponent();

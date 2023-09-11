@@ -22,7 +22,6 @@ namespace DocManager
 
         private void FrmFileDetails_Load(object sender, EventArgs e)
         {
-            
             FileInfo documentInfo = new FileInfo(document.PathRaw);
 
             lblTitle.Text = document.Title;
@@ -34,8 +33,6 @@ namespace DocManager
             lblCreation.Text = documentInfo.CreationTime.ToLongDateString();
             lblModified.Text = documentInfo.LastWriteTime.ToLongDateString();
             lblLastAccess.Text = documentInfo.LastAccessTime.ToLongDateString();
-
-
         }
 
         private void btnAccept_Click(object sender, EventArgs e)
