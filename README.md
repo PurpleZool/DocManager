@@ -18,7 +18,8 @@ Different states will differentiate:
 - NOT_PRESENT: The file is not found.
 - DOCUMENT_CHANGED: The file has changed compared to the version saved by the application.
 
-![image](https://github.com/PurpleZool/DocManager/assets/25660829/82f71b60-1693-4e2e-9ecb-c79a17750778)
+![image](https://github.com/PurpleZool/DocManager/assets/25660829/e0d0639a-de05-42fd-937b-5ab3dc6918f3)
+
 
 
 Various actions can be performed with the files in the list through a context menu that opens with the right-click as:
@@ -31,11 +32,13 @@ Various actions can be performed with the files in the list through a context me
 ### Data Save & Load
 The file lists can be saved and loaded in JSON format with the .LDM extension. Users can also configure different loading options from the preferences, as well as a default save file.
 
-![image](https://github.com/PurpleZool/DocManager/assets/25660829/2e4ae90d-45f6-420c-b487-046cf9b52f91)
+![image](https://github.com/PurpleZool/DocManager/assets/25660829/b5b6951f-7b2c-4656-b586-b12a4175742a)
+
 
 ### File Finder
 
 Very simple file search tool for locating files in a specified path based on their signature and extension.
 
-![image](https://github.com/PurpleZool/DocManager/assets/25660829/3ac28659-e01d-4dfb-8c0d-a2a59388123d)
+![image](https://github.com/PurpleZool/DocManager/assets/25660829/1d1f3e38-18af-4cd1-9eda-43a8c96f47ca)
+
 
